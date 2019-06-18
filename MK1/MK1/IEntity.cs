@@ -7,5 +7,6 @@ namespace MK1
   internal interface IEntity
   {
     Guid EntityID { get; set; }
+    DateTime LastUpdatedDateTime { get; set; }
   }
 }

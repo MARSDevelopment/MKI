@@ -7,6 +7,7 @@ namespace MK1
   public abstract class Entity : IEntity
   {
     public Guid EntityID { get; set; }
+    public DateTime LastUpdatedDateTime { get; set; }
 
     protected Entity() { }
   }
