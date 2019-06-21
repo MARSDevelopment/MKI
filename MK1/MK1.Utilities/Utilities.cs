@@ -4,7 +4,7 @@ using System.Reflection;
 
 namespace MK1.Utilities
 {
-  static class Utilities
+  public static class Utilities
   {
     /// <summary>
     /// Returns the Description Attribute assigned to an Enum as a string. Requires a Description Attribute to be assigned to the Enum with a non-whitespace value.

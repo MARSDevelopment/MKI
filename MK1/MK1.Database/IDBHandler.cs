@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace MK1.DBHandler
+namespace MK1.Database
 {
   public interface IDBHandler
   {
