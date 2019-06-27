@@ -4,6 +4,9 @@ using System.Text;
 
 namespace MK1
 {
+  /// <summary>
+  /// Base for Instantiated Objects
+  /// </summary>
   public abstract class Entity : IEntity
   {
     public Guid EntityID { get; set; }

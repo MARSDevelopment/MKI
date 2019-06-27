@@ -4,6 +4,9 @@ using System.Text;
 
 namespace MK1
 {
+  /// <summary>
+  /// Base for Application Contexts
+  /// </summary>
   public abstract class Context : IContext
   {
     protected Context() { }
